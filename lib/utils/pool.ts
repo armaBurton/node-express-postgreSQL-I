@@ -6,7 +6,7 @@ const pool: Pool = new Pool({
   password: "password",
   host: "localhost",
   port: 7000,
-  database: "PERN REST API",
+  database: "perntodo",
 });
 
 export default pool;
