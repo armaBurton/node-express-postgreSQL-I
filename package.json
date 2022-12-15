@@ -1,0 +1,30 @@
+{
+  "name": "express-postgresql-i",
+  "version": "1.0.0",
+  "description": "Set Up A Production-ready REST API Server Using TypeScript, Express And PostgreSQL",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/index.js --env=production",
+    "start:dev": "ts-node -r tsconfig-paths/register ./src",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armaBurton/node-express-postgreSQL-I.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armaBurton/node-express-postgreSQL-I/issues"
+  },
+  "homepage": "https://github.com/armaBurton/node-express-postgreSQL-I#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.1",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.1"
+  }
+}
